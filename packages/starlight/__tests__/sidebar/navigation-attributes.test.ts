@@ -121,6 +121,9 @@ describe('getSidebar', () => {
 			          "class": "advanced",
 			          "ping": "https://example.com",
 			        },
+			        "autogenerate": {
+			          "directory": "reference",
+			        },
 			        "badge": undefined,
 			        "href": "/reference/frontmatter/",
 			        "isCurrent": false,
@@ -136,6 +139,9 @@ describe('getSidebar', () => {
 			    "collapsed": false,
 			    "entries": [
 			      {
+			        "autogenerate": {
+			          "directory": "api/v1",
+			        },
 			        "badge": undefined,
 			        "collapsed": false,
 			        "entries": [
@@ -143,6 +149,9 @@ describe('getSidebar', () => {
 			            "attrs": {
 			              "class": "current",
 			              "data-version": "1",
+			            },
+			            "autogenerate": {
+			              "directory": "api/v1",
 			            },
 			            "badge": undefined,
 			            "href": "/api/v1/products/add/",
@@ -155,6 +164,9 @@ describe('getSidebar', () => {
 			              "class": "current",
 			              "data-experimental": true,
 			              "data-version": "1",
+			            },
+			            "autogenerate": {
+			              "directory": "api/v1",
 			            },
 			            "badge": undefined,
 			            "href": "/api/v1/products/remove/",
@@ -170,6 +182,9 @@ describe('getSidebar', () => {
 			        "attrs": {
 			          "class": "current",
 			          "data-version": "1",
+			        },
+			        "autogenerate": {
+			          "directory": "api/v1",
 			        },
 			        "badge": undefined,
 			        "href": "/api/v1/users/",
@@ -187,6 +202,9 @@ describe('getSidebar', () => {
 			    "entries": [
 			      {
 			        "attrs": {},
+			        "autogenerate": {
+			          "directory": "Deprecated API",
+			        },
 			        "badge": undefined,
 			        "href": "/deprecated-api/users/",
 			        "isCurrent": false,
